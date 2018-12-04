@@ -18,7 +18,6 @@ using namespace std;
     }while(0)
 
 void do_service(int sockfd);
-void print_json(Json::Value data);
 
 int main(int argc, const char *argv[])
 {
@@ -106,46 +105,6 @@ void do_service(int sockfd)
         memset(sendbuf, 0, sizeof sendbuf);
     }
 }
-
-void print_json(Json::Value data)
-{  
-	Json::Value::Members mem = data.getMemberNames();  
-	for (auto iter = mem.begin(); iter != mem.end(); iter++)  
-	{  
-		cout << *iter << "\t: ";  
-		if (data[*iter].type() == Json::objectValue)  
-		{  
-			cout << endl;  
-			print_json(data[*iter]);  
-		}  
-		else if (data[*iter].type() == Json::arrayValue)  
-		{  
-			cout << endl;  
-			auto cnt = data[*iter].size();  
-			for (size_t i = 0; i < cnt; i++)  
-			{  
-				print_json(data[*iter][i]);  
-			}  
-		}  
-		else if (data[*iter].type() == Json::stringValue)  
-		{  
-			cout << data[*iter].asString() << endl;  
-		}  
-		else if (data[*iter].type() == Json::realValue)  
-		{  
-			cout << data[*iter].asDouble() << endl;  
-		}  
-		else if (data[*iter].type() == Json::uintValue)  
-		{  
-			cout << data[*iter].asUInt() << endl;  
-		}  
-		else  
-		{  
-			cout << data[*iter].asInt() << endl;  
-		}  
-	}  
-	return;  
-}  
 
 
 
