@@ -61,11 +61,15 @@ void DictProducer::buildDict(){
 			while (getline(input, line)){
 				if (!line.size())
 					continue;
-					_splitTool->cut(words, line);
-					for (const auto & e : words){
-						if (_stopWordsDict.find(e) == _stopWordsDict.end())
-							_dict[e]++;
-					}
+				for (auto & c : line){
+					if (!(c & 0x80))
+						c = ' ';
+				}
+				_splitTool->cut(words, line);
+				for (const auto & e : words){
+					if (_stopWordsDict.find(e) == _stopWordsDict.end())
+						_dict[e]++;
+				}
 			}
 		}else {
 			LogError("Open dictionary file \"%s\"failed", file.c_str());
