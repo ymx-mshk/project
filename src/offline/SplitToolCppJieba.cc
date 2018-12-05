@@ -1,6 +1,6 @@
 
-#include "../../include/first/SplitToolCppJieba.h"
-#include "../../include/first/Configuration.h"
+#include "../../include/offline/SplitToolCppJieba.h"
+#include "../../include/offline/Configuration.h"
 
 namespace dict
 {

@@ -1,7 +1,7 @@
 
-#include "../../include/first/DictProducer.h"
-#include "../../include/first/Mylogger.h"
-#include "../../include/first/Configuration.h"
+#include "../../include/offline/DictProducer.h"
+#include "../../include/offline/Mylogger.h"
+#include "../../include/offline/Configuration.h"
 
 #include <fstream>
 #include <sstream>
@@ -12,20 +12,9 @@
 namespace dict
 {
 
-//不传参创建英文字典
-DictProducer::DictProducer()
-: _splitTool(NULL){
-	_dir = getConfig("enDictionaryDir");
-	if (_dir.size() == 0){
-		LogError("No dictionary source file");
-		exit(EXIT_FAILURE);
-	}
-}
-
-//传参创建中文词典
 DictProducer::DictProducer(SplitTool * splitTool)
 : _splitTool(splitTool){
-	_dir = getConfig("cnDictionaryDir");
+	_dir = getConfig("dictionaryDir");
 	if (_dir.size() == 0){
 		LogError("No dictionary directory");
 		exit(EXIT_FAILURE);
@@ -35,33 +24,23 @@ DictProducer::DictProducer(SplitTool * splitTool)
 
 void DictProducer::buildDict(){
 
-	string stopWordsFile = _splitTool ? getConfig("cnStopWordsDict")
-		: getConfig("enStopWordsDict");
-
 	//先创建停用词词典
-	getStopWordsDict(stopWordsFile);
+	getStopWordsDict(getConfig("stopWordsDict"));
+	cout << _stopWordsDict.size() << "\n\n" << endl;
 
 	getFiles();
 	std::ifstream input;
 	
 	std::string line, word;
 	vector<string> words;
-	for (const auto & file : _files){
+	//处理英文文件
+	for (const auto & file : _enFiles){
 		input.open(file);
 		if (input){
 			LogInfo("Open dictionary file \"%s\" success", file.c_str());
 			while (getline(input, line)){
 				if (!line.size())
 					continue;
-				//处理中文
-				if (_splitTool){
-					_splitTool->cut(words, line);
-					for (const auto & e : words){
-						if (_stopWordsDict.find(e) == _stopWordsDict.end())
-							_dict[e]++;
-					}
-				//处理英文
-				}else {
 					strProcess(line);
 					istringstream ss(line);
 					while (ss >> word){
@@ -69,6 +48,24 @@ void DictProducer::buildDict(){
 							_dict[word]++;
 					}
 				}
+		}else {
+			LogError("Open dictionary file \"%s\"failed", file.c_str());
+		}
+		input.close();
+	}
+	//处理中文文件
+	for (const auto & file : _cnFiles){
+		input.open(file);
+		if (input){
+			LogInfo("Open dictionary file \"%s\" success", file.c_str());
+			while (getline(input, line)){
+				if (!line.size())
+					continue;
+					_splitTool->cut(words, line);
+					for (const auto & e : words){
+						if (_stopWordsDict.find(e) == _stopWordsDict.end())
+							_dict[e]++;
+					}
 			}
 		}else {
 			LogError("Open dictionary file \"%s\"failed", file.c_str());
@@ -79,41 +76,58 @@ void DictProducer::buildDict(){
 }
 
 void DictProducer::getFiles(){
-	DIR * dir = opendir(_dir.c_str());
+	getAllFiles(_enFiles, _dir + "/en");
+	getAllFiles(_cnFiles, _dir + "/cn");
+}
+
+void DictProducer::getAllFiles(vector<string> & files, const string & path){
+	DIR * dir = opendir(path.c_str());
 	if (!dir){
 		LogError("No such dirctory");
 	}
 	struct dirent * fileInfo;
 	string file;
 	
-	//这里没有递归查找子目录
 	while ((fileInfo = readdir(dir)) != NULL){
+		//如果有子目录并且不是.和..，则进入该目录继续查找
+		if (fileInfo->d_type == DT_DIR 
+				&& strcmp(fileInfo->d_name, ".")
+				&& strcmp(fileInfo->d_name, "..")){
+			
+			getAllFiles(files, path + "/" + fileInfo->d_name);
+		}
 		if (fileInfo->d_type == DT_REG){
-			file = _dir + "/" + fileInfo->d_name;
-			_files.push_back(file);
+			file = path + "/" + fileInfo->d_name;
+			files.push_back(file);
 			LogDebug("add \"%s\" to dictionary files", file.c_str());
 		}
 	}
-
+	
 }
 
-void DictProducer::getStopWordsDict(const string & file){
-	ifstream input(file);
-	if (input){
-		LogInfo("Open stopwords dictionary file \"%s\" success", file.c_str());
-	}else{
-		LogWarn("Open stopwords dictionary file \"%s\" falied", file.c_str());
+void DictProducer::getStopWordsDict(const string & path){
+
+	vector<string> files;
+	getAllFiles(files, path);
+
+	ifstream input;
+	for (const string & file : files){
+		input.open(file);
+		if (input){
+			LogInfo("Open stopwords dictionary file \"%s\" success", file.c_str());
+		}else{
+			LogWarn("Open stopwords dictionary file \"%s\" falied", file.c_str());
+			input.close();
+			return;
+		}
+
+		string word;
+		while(input >> word){
+	
+			_stopWordsDict.insert(std::move(word));
+		}
 		input.close();
-		return;
 	}
-
-	string word;
-	while(input >> word){
-
-		_stopWordsDict.insert(std::move(word));
-	}
-
-	input.close();
 }
 
 void DictProducer::buildIndex(){
@@ -141,8 +155,7 @@ void DictProducer::buildIndex(){
 }
 
 void DictProducer::store() const{
-	std::string file = _splitTool ? getConfig("cnDictionaryStoreFile")
-		: getConfig("enDictionaryStoreFile");
+	std::string file = getConfig("dictionaryStoreFile");
 	if (file.size() == 0){
 		LogError("No dictionary store file");
 		exit(EXIT_FAILURE);
@@ -155,7 +168,7 @@ void DictProducer::store() const{
 	}
 	output.close();
 
-	file = _splitTool ? getConfig("cnIndexStoreFile") : getConfig("enIndexStoreFile");
+	file =  getConfig("indexStoreFile");
 	if (file.size() == 0){
 		LogError("No index store file");
 		exit(EXIT_FAILURE);

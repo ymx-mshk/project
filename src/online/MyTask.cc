@@ -1,6 +1,7 @@
 
 #include "MyTask.h"
 #include "BitMap.h"
+#include "Mylogger.h"
 #include "Dictionary.h"
 #include "CacheManager.h"
 #include "Pthread.h"
@@ -20,8 +21,11 @@ void MyTask::excute(){
 	Cache & cache = CacheManager::getCache(atoi(pthreadName));
 	string result = cache.getElement(_queryWord);
 	if (result.size()){
+		LogInfo("find %s's query result in Cache", _queryWord);
 		_conn->sendInLoop(result);
 		return;
+	}else {
+		LogInfo("donnot find %s's query result in Cache", _queryWord);
 	}
 
 	auto dict = getDict();
@@ -37,7 +41,7 @@ void MyTask::excute(){
 		}
 	}
 
-	for (size_t idx = 0; idx != candidata.size(); ++idx){
+	for (size_t idx = 0; idx != dict.size(); ++idx){
 		if (candidata.isSet(idx)){
 			int dist = distance(dict[idx].first);
 			if (dist <= 3){

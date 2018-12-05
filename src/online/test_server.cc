@@ -14,7 +14,7 @@ using namespace mysp;
 int main()
 {
 
-	Configuration::getInstance("/home/yuki/Cpp/project/conf/server.conf");
+	Configuration::getInstance("../../conf/server.conf");
 
 	Dictionary::getInstance()->initDict(getConfig("dictName"));
 	Dictionary::getInstance()->initIndex(getConfig("indexName"));

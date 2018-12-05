@@ -90,3 +90,359 @@
 2018-12-03 09:40:50,293 myLog [INFO] [Configuration.cc-init-40] Open config file "/home/yuki/Cpp/project/conf/dict.conf" success
 2018-12-03 09:41:23,183 myLog [INFO] [Configuration.cc-init-40] Open config file "/home/yuki/Cpp/project/conf/dict.conf" success
 2018-12-03 09:51:50,265 myLog [INFO] [Configuration.cc-init-40] Open config file "/home/yuki/Cpp/project/conf/dict.conf" success
+2018-12-05 15:50:40,867 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "/home/yuki/Cpp/project/conf/dict.conf" success
+2018-12-05 15:50:44,719 myLog [ERROR] [src/offline/DictProducer.cc-DictProducer-19] No dictionary directory
+2018-12-05 15:52:30,847 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "/home/yuki/Cpp/project/conf/dict.conf" success
+2018-12-05 15:52:33,643 myLog [ERROR] [src/offline/DictProducer.cc-DictProducer-19] No dictionary directory
+2018-12-05 15:54:06,153 myLog [ERROR] [src/offline/Configuration.cc-init-39] Open config file "../../conf/dict.conf" failed
+2018-12-05 15:54:50,645 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 15:54:53,276 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/stop_words" to dictionary files
+2018-12-05 15:54:53,338 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/stop_words" to dictionary files
+2018-12-05 15:54:53,339 myLog [WARN] [src/offline/DictProducer.cc-getStopWordsDict-117] Open stopwords dictionary file "/home/yuki/Cpp/project/data/dictionary/stop_words" falied
+2018-12-05 15:54:53,347 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/The_Holy_Bible.txt" to dictionary files
+2018-12-05 15:54:53,348 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/english.txt" to dictionary files
+2018-12-05 15:54:53,349 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0027.txt" to dictionary files
+2018-12-05 15:54:53,350 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0002.txt" to dictionary files
+2018-12-05 15:54:53,350 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0013.txt" to dictionary files
+2018-12-05 15:54:53,350 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0007.txt" to dictionary files
+2018-12-05 15:54:53,350 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0015.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0031.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0023.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0019.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0025.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0045.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0037.txt" to dictionary files
+2018-12-05 15:54:53,351 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0033.txt" to dictionary files
+2018-12-05 15:54:53,352 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0041.txt" to dictionary files
+2018-12-05 15:54:53,352 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0011.txt" to dictionary files
+2018-12-05 15:54:53,352 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0035.txt" to dictionary files
+2018-12-05 15:54:53,353 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0029.txt" to dictionary files
+2018-12-05 15:54:53,353 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0017.txt" to dictionary files
+2018-12-05 15:54:53,354 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0039.txt" to dictionary files
+2018-12-05 15:54:53,354 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0005.txt" to dictionary files
+2018-12-05 15:54:53,354 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0009.txt" to dictionary files
+2018-12-05 15:54:53,354 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0021.txt" to dictionary files
+2018-12-05 15:54:53,355 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/1.txt" to dictionary files
+2018-12-05 15:54:53,355 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0043.txt" to dictionary files
+2018-12-05 15:54:53,355 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "/home/yuki/Cpp/project/data/dictionary/C3-Art0003.txt" to dictionary files
+2018-12-05 15:54:53,355 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/The_Holy_Bible.txt"failed
+2018-12-05 15:54:53,355 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/english.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0027.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0002.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0013.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0007.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0015.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0031.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0023.txt"failed
+2018-12-05 15:54:53,356 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0019.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0025.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0045.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0037.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0033.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0041.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0011.txt"failed
+2018-12-05 15:54:53,357 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0035.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0029.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0017.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0039.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0005.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0009.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0021.txt"failed
+2018-12-05 15:54:53,358 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/1.txt"failed
+2018-12-05 15:54:53,359 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0043.txt"failed
+2018-12-05 15:54:53,359 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "/home/yuki/Cpp/project/data/dictionary/C3-Art0003.txt"failed
+2018-12-05 15:54:53,359 myLog [INFO] [src/offline/DictProducer.cc-buildDict-73] Build dict.dat success
+2018-12-05 15:54:53,359 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-152] Create index.dat success
+2018-12-05 15:57:24,365 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 15:57:28,203 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/stop_words" to dictionary files
+2018-12-05 15:57:28,204 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/stop_words" to dictionary files
+2018-12-05 15:57:28,213 myLog [WARN] [src/offline/DictProducer.cc-getStopWordsDict-117] Open stopwords dictionary file "../data/dictionary/stop_words" falied
+2018-12-05 15:57:28,214 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/The_Holy_Bible.txt" to dictionary files
+2018-12-05 15:57:28,215 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/english.txt" to dictionary files
+2018-12-05 15:57:28,233 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0027.txt" to dictionary files
+2018-12-05 15:57:28,234 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0002.txt" to dictionary files
+2018-12-05 15:57:28,234 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0013.txt" to dictionary files
+2018-12-05 15:57:28,234 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0007.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0015.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0031.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0023.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0019.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0025.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0045.txt" to dictionary files
+2018-12-05 15:57:28,235 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0037.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0033.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0041.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0011.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0035.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0029.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0017.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0039.txt" to dictionary files
+2018-12-05 15:57:28,236 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0005.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0009.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0021.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/1.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0043.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0003.txt" to dictionary files
+2018-12-05 15:57:28,237 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "../data/dictionary/The_Holy_Bible.txt"failed
+2018-12-05 15:57:28,237 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "../data/dictionary/english.txt"failed
+2018-12-05 15:57:28,237 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0027.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0002.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0013.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0007.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0015.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0031.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0023.txt"failed
+2018-12-05 15:57:28,238 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0019.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0025.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0045.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0037.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0033.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0041.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0011.txt"failed
+2018-12-05 15:57:28,239 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0035.txt"failed
+2018-12-05 15:57:28,240 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0029.txt"failed
+2018-12-05 15:57:28,241 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0017.txt"failed
+2018-12-05 15:57:28,241 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0039.txt"failed
+2018-12-05 15:57:28,241 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0005.txt"failed
+2018-12-05 15:57:28,242 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0009.txt"failed
+2018-12-05 15:57:28,242 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0021.txt"failed
+2018-12-05 15:57:28,242 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/1.txt"failed
+2018-12-05 15:57:28,242 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0043.txt"failed
+2018-12-05 15:57:28,243 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0003.txt"failed
+2018-12-05 15:57:28,243 myLog [INFO] [src/offline/DictProducer.cc-buildDict-73] Build dict.dat success
+2018-12-05 15:57:28,243 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-152] Create index.dat success
+2018-12-05 18:47:49,470 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 18:47:53,725 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/stop_words" to dictionary files
+2018-12-05 18:47:53,726 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/stop_words" to dictionary files
+2018-12-05 18:47:53,726 myLog [WARN] [src/offline/DictProducer.cc-getStopWordsDict-117] Open stopwords dictionary file "../data/dictionary/stop_words" falied
+2018-12-05 18:47:53,726 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/The_Holy_Bible.txt" to dictionary files
+2018-12-05 18:47:53,726 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/english.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0027.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0002.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0013.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0007.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0015.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0031.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0023.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0019.txt" to dictionary files
+2018-12-05 18:47:53,727 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0025.txt" to dictionary files
+2018-12-05 18:47:53,728 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0045.txt" to dictionary files
+2018-12-05 18:47:53,728 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0037.txt" to dictionary files
+2018-12-05 18:47:53,728 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0033.txt" to dictionary files
+2018-12-05 18:47:53,729 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0041.txt" to dictionary files
+2018-12-05 18:47:53,729 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0011.txt" to dictionary files
+2018-12-05 18:47:53,729 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0035.txt" to dictionary files
+2018-12-05 18:47:53,729 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0029.txt" to dictionary files
+2018-12-05 18:47:53,729 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0017.txt" to dictionary files
+2018-12-05 18:47:53,730 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0039.txt" to dictionary files
+2018-12-05 18:47:53,730 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0005.txt" to dictionary files
+2018-12-05 18:47:53,730 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0009.txt" to dictionary files
+2018-12-05 18:47:53,730 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0021.txt" to dictionary files
+2018-12-05 18:47:53,730 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/1.txt" to dictionary files
+2018-12-05 18:47:53,731 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0043.txt" to dictionary files
+2018-12-05 18:47:53,731 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/C3-Art0003.txt" to dictionary files
+2018-12-05 18:47:53,731 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "../data/dictionary/The_Holy_Bible.txt"failed
+2018-12-05 18:47:53,731 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-51] Open dictionary file "../data/dictionary/english.txt"failed
+2018-12-05 18:47:53,731 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0027.txt"failed
+2018-12-05 18:47:53,731 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0002.txt"failed
+2018-12-05 18:47:53,731 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0013.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0007.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0015.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0031.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0023.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0019.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0025.txt"failed
+2018-12-05 18:47:53,732 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0045.txt"failed
+2018-12-05 18:47:53,733 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0037.txt"failed
+2018-12-05 18:47:53,733 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0033.txt"failed
+2018-12-05 18:47:53,734 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0041.txt"failed
+2018-12-05 18:47:53,734 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0011.txt"failed
+2018-12-05 18:47:53,734 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0035.txt"failed
+2018-12-05 18:47:53,735 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0029.txt"failed
+2018-12-05 18:47:53,735 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0017.txt"failed
+2018-12-05 18:47:53,735 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0039.txt"failed
+2018-12-05 18:47:53,735 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0005.txt"failed
+2018-12-05 18:47:53,736 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0009.txt"failed
+2018-12-05 18:47:53,736 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0021.txt"failed
+2018-12-05 18:47:53,737 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/1.txt"failed
+2018-12-05 18:47:53,737 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0043.txt"failed
+2018-12-05 18:47:53,737 myLog [ERROR] [src/offline/DictProducer.cc-buildDict-69] Open dictionary file "../data/dictionary/C3-Art0003.txt"failed
+2018-12-05 18:47:53,737 myLog [INFO] [src/offline/DictProducer.cc-buildDict-73] Build dict.dat success
+2018-12-05 18:47:53,738 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-152] Create index.dat success
+2018-12-05 18:51:15,245 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 18:51:17,908 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/stopWords/cn/stop_words" to dictionary files
+2018-12-05 18:51:17,908 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/stopWords/en/stop_words" to dictionary files
+2018-12-05 18:51:17,908 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-115] Open stopwords dictionary file "../data/stopWords/cn/stop_words" success
+2018-12-05 18:51:17,980 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-115] Open stopwords dictionary file "../data/stopWords/en/stop_words" success
+2018-12-05 18:51:17,989 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/en/The_Holy_Bible.txt" to dictionary files
+2018-12-05 18:51:17,989 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/en/english.txt" to dictionary files
+2018-12-05 18:51:17,990 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0027.txt" to dictionary files
+2018-12-05 18:51:17,990 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0002.txt" to dictionary files
+2018-12-05 18:51:17,990 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0013.txt" to dictionary files
+2018-12-05 18:51:17,991 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0007.txt" to dictionary files
+2018-12-05 18:51:17,991 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0015.txt" to dictionary files
+2018-12-05 18:51:17,991 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0031.txt" to dictionary files
+2018-12-05 18:51:17,993 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0023.txt" to dictionary files
+2018-12-05 18:51:17,994 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0019.txt" to dictionary files
+2018-12-05 18:51:17,994 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0025.txt" to dictionary files
+2018-12-05 18:51:17,994 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0045.txt" to dictionary files
+2018-12-05 18:51:17,995 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0037.txt" to dictionary files
+2018-12-05 18:51:17,995 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0033.txt" to dictionary files
+2018-12-05 18:51:17,995 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0041.txt" to dictionary files
+2018-12-05 18:51:17,996 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0011.txt" to dictionary files
+2018-12-05 18:51:17,996 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0035.txt" to dictionary files
+2018-12-05 18:51:17,996 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0029.txt" to dictionary files
+2018-12-05 18:51:17,997 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0017.txt" to dictionary files
+2018-12-05 18:51:17,997 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0039.txt" to dictionary files
+2018-12-05 18:51:17,997 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0005.txt" to dictionary files
+2018-12-05 18:51:17,997 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0009.txt" to dictionary files
+2018-12-05 18:51:17,997 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0021.txt" to dictionary files
+2018-12-05 18:51:17,998 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/1.txt" to dictionary files
+2018-12-05 18:51:17,998 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0043.txt" to dictionary files
+2018-12-05 18:51:17,998 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-100] add "../data/dictionary/cn/C3-Art0003.txt" to dictionary files
+2018-12-05 18:51:17,998 myLog [INFO] [src/offline/DictProducer.cc-buildDict-38] Open dictionary file "../data/dictionary/en/The_Holy_Bible.txt" success
+2018-12-05 18:51:18,776 myLog [INFO] [src/offline/DictProducer.cc-buildDict-38] Open dictionary file "../data/dictionary/en/english.txt" success
+2018-12-05 18:51:19,996 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0027.txt" success
+2018-12-05 18:51:20,076 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0002.txt" success
+2018-12-05 18:51:20,143 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0013.txt" success
+2018-12-05 18:51:20,213 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0007.txt" success
+2018-12-05 18:51:20,243 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0015.txt" success
+2018-12-05 18:51:20,277 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0031.txt" success
+2018-12-05 18:51:20,361 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0023.txt" success
+2018-12-05 18:51:20,418 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0019.txt" success
+2018-12-05 18:51:20,501 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0025.txt" success
+2018-12-05 18:51:20,530 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0045.txt" success
+2018-12-05 18:51:20,584 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0037.txt" success
+2018-12-05 18:51:20,635 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0033.txt" success
+2018-12-05 18:51:20,655 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0041.txt" success
+2018-12-05 18:51:20,730 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0011.txt" success
+2018-12-05 18:51:20,799 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0035.txt" success
+2018-12-05 18:51:20,832 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0029.txt" success
+2018-12-05 18:51:20,860 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0017.txt" success
+2018-12-05 18:51:20,900 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0039.txt" success
+2018-12-05 18:51:20,922 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0005.txt" success
+2018-12-05 18:51:20,962 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0009.txt" success
+2018-12-05 18:51:21,021 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0021.txt" success
+2018-12-05 18:51:21,056 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/1.txt" success
+2018-12-05 18:51:21,057 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0043.txt" success
+2018-12-05 18:51:21,127 myLog [INFO] [src/offline/DictProducer.cc-buildDict-58] Open dictionary file "../data/dictionary/cn/C3-Art0003.txt" success
+2018-12-05 18:51:21,159 myLog [INFO] [src/offline/DictProducer.cc-buildDict-73] Build dict.dat success
+2018-12-05 18:51:21,605 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-152] Create index.dat success
+2018-12-05 19:03:47,289 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 19:03:50,656 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/stopWords/cn/stop_words" to dictionary files
+2018-12-05 19:03:50,657 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/stopWords/en/stop_words" to dictionary files
+2018-12-05 19:03:50,657 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-116] Open stopwords dictionary file "../data/stopWords/cn/stop_words" success
+2018-12-05 19:03:50,658 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-116] Open stopwords dictionary file "../data/stopWords/en/stop_words" success
+2018-12-05 19:03:50,660 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/en/The_Holy_Bible.txt" to dictionary files
+2018-12-05 19:03:50,661 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/en/english.txt" to dictionary files
+2018-12-05 19:03:50,663 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0027.txt" to dictionary files
+2018-12-05 19:03:50,663 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0002.txt" to dictionary files
+2018-12-05 19:03:50,664 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0013.txt" to dictionary files
+2018-12-05 19:03:50,664 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0007.txt" to dictionary files
+2018-12-05 19:03:50,664 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0015.txt" to dictionary files
+2018-12-05 19:03:50,665 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0031.txt" to dictionary files
+2018-12-05 19:03:50,665 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0023.txt" to dictionary files
+2018-12-05 19:03:50,665 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0019.txt" to dictionary files
+2018-12-05 19:03:50,666 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0025.txt" to dictionary files
+2018-12-05 19:03:50,666 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0045.txt" to dictionary files
+2018-12-05 19:03:50,666 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0037.txt" to dictionary files
+2018-12-05 19:03:50,666 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0033.txt" to dictionary files
+2018-12-05 19:03:50,666 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0041.txt" to dictionary files
+2018-12-05 19:03:50,667 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0011.txt" to dictionary files
+2018-12-05 19:03:50,667 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0035.txt" to dictionary files
+2018-12-05 19:03:50,667 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0029.txt" to dictionary files
+2018-12-05 19:03:50,667 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0017.txt" to dictionary files
+2018-12-05 19:03:50,668 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0039.txt" to dictionary files
+2018-12-05 19:03:50,669 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0005.txt" to dictionary files
+2018-12-05 19:03:50,669 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0009.txt" to dictionary files
+2018-12-05 19:03:50,669 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0021.txt" to dictionary files
+2018-12-05 19:03:50,669 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/1.txt" to dictionary files
+2018-12-05 19:03:50,669 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0043.txt" to dictionary files
+2018-12-05 19:03:50,670 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-101] add "../data/dictionary/cn/C3-Art0003.txt" to dictionary files
+2018-12-05 19:03:50,670 myLog [INFO] [src/offline/DictProducer.cc-buildDict-39] Open dictionary file "../data/dictionary/en/The_Holy_Bible.txt" success
+2018-12-05 19:03:51,486 myLog [INFO] [src/offline/DictProducer.cc-buildDict-39] Open dictionary file "../data/dictionary/en/english.txt" success
+2018-12-05 19:03:52,717 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0027.txt" success
+2018-12-05 19:03:52,778 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0002.txt" success
+2018-12-05 19:03:52,799 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0013.txt" success
+2018-12-05 19:03:52,853 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0007.txt" success
+2018-12-05 19:03:52,878 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0015.txt" success
+2018-12-05 19:03:52,914 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0031.txt" success
+2018-12-05 19:03:52,981 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0023.txt" success
+2018-12-05 19:03:53,030 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0019.txt" success
+2018-12-05 19:03:53,117 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0025.txt" success
+2018-12-05 19:03:53,150 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0045.txt" success
+2018-12-05 19:03:53,182 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0037.txt" success
+2018-12-05 19:03:53,222 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0033.txt" success
+2018-12-05 19:03:53,242 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0041.txt" success
+2018-12-05 19:03:53,306 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0011.txt" success
+2018-12-05 19:03:53,357 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0035.txt" success
+2018-12-05 19:03:53,406 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0029.txt" success
+2018-12-05 19:03:53,433 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0017.txt" success
+2018-12-05 19:03:53,462 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0039.txt" success
+2018-12-05 19:03:53,485 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0005.txt" success
+2018-12-05 19:03:53,522 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0009.txt" success
+2018-12-05 19:03:53,571 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0021.txt" success
+2018-12-05 19:03:53,608 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/1.txt" success
+2018-12-05 19:03:53,609 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0043.txt" success
+2018-12-05 19:03:53,667 myLog [INFO] [src/offline/DictProducer.cc-buildDict-59] Open dictionary file "../data/dictionary/cn/C3-Art0003.txt" success
+2018-12-05 19:03:53,694 myLog [INFO] [src/offline/DictProducer.cc-buildDict-74] Build dict.dat success
+2018-12-05 19:03:54,129 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-153] Create index.dat success
+2018-12-05 19:05:43,602 myLog [INFO] [src/offline/Configuration.cc-init-42] Open config file "../conf/dict.conf" success
+2018-12-05 19:05:46,391 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/stopWords/cn/stop_words" to dictionary files
+2018-12-05 19:05:46,392 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/stopWords/en/stop_words" to dictionary files
+2018-12-05 19:05:46,392 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-119] Open stopwords dictionary file "../data/stopWords/cn/stop_words" success
+2018-12-05 19:05:46,393 myLog [INFO] [src/offline/DictProducer.cc-getStopWordsDict-119] Open stopwords dictionary file "../data/stopWords/en/stop_words" success
+2018-12-05 19:05:46,396 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/en/The_Holy_Bible.txt" to dictionary files
+2018-12-05 19:05:46,396 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/en/english.txt" to dictionary files
+2018-12-05 19:05:46,396 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0027.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0002.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0013.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0007.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0015.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0031.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0023.txt" to dictionary files
+2018-12-05 19:05:46,397 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0019.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0025.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0045.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0037.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0033.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0041.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0011.txt" to dictionary files
+2018-12-05 19:05:46,398 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0035.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0029.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0017.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0039.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0005.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0009.txt" to dictionary files
+2018-12-05 19:05:46,399 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0021.txt" to dictionary files
+2018-12-05 19:05:46,400 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/1.txt" to dictionary files
+2018-12-05 19:05:46,400 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0043.txt" to dictionary files
+2018-12-05 19:05:46,401 myLog [DEBUG] [src/offline/DictProducer.cc-getAllFiles-104] add "../data/dictionary/cn/C3-Art0003.txt" to dictionary files
+2018-12-05 19:05:46,401 myLog [INFO] [src/offline/DictProducer.cc-buildDict-40] Open dictionary file "../data/dictionary/en/The_Holy_Bible.txt" success
+2018-12-05 19:06:06,739 myLog [INFO] [src/offline/DictProducer.cc-buildDict-40] Open dictionary file "../data/dictionary/en/english.txt" success
+2018-12-05 19:06:33,311 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0027.txt" success
+2018-12-05 19:06:33,395 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0002.txt" success
+2018-12-05 19:06:33,419 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0013.txt" success
+2018-12-05 19:06:33,479 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0007.txt" success
+2018-12-05 19:06:33,507 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0015.txt" success
+2018-12-05 19:06:33,536 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0031.txt" success
+2018-12-05 19:06:33,625 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0023.txt" success
+2018-12-05 19:06:33,675 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0019.txt" success
+2018-12-05 19:06:33,750 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0025.txt" success
+2018-12-05 19:06:33,779 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0045.txt" success
+2018-12-05 19:06:33,821 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0037.txt" success
+2018-12-05 19:06:33,860 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0033.txt" success
+2018-12-05 19:06:33,880 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0041.txt" success
+2018-12-05 19:06:33,925 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0011.txt" success
+2018-12-05 19:06:33,960 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0035.txt" success
+2018-12-05 19:06:33,992 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0029.txt" success
+2018-12-05 19:06:34,008 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0017.txt" success
+2018-12-05 19:06:34,031 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0039.txt" success
+2018-12-05 19:06:34,049 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0005.txt" success
+2018-12-05 19:06:34,084 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0009.txt" success
+2018-12-05 19:06:34,130 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0021.txt" success
+2018-12-05 19:06:34,159 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/1.txt" success
+2018-12-05 19:06:34,159 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0043.txt" success
+2018-12-05 19:06:34,212 myLog [INFO] [src/offline/DictProducer.cc-buildDict-62] Open dictionary file "../data/dictionary/cn/C3-Art0003.txt" success
+2018-12-05 19:06:34,230 myLog [INFO] [src/offline/DictProducer.cc-buildDict-77] Build dict.dat success
+2018-12-05 19:06:34,685 myLog [INFO] [src/offline/DictProducer.cc-buildIndex-156] Create index.dat success

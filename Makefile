@@ -1,5 +1,5 @@
-INC_DIR:= ./include/first/
-SRC_DIR:= ./src/first/
+INC_DIR:= ./include/offline/
+SRC_DIR:= ./src/offline/
 SRCS:= $(wildcard $(SRC_DIR)*.cc)
 OBJS:= $(patsubst %.cc, %.o, $(SRCS))
 LIBS:= -llog4cpp -lpthread
