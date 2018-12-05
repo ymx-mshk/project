@@ -16,10 +16,6 @@ MyTask::MyTask(const string & queryWord, const TcpConnectionPtr & conn)
 }
 
 void MyTask::excute(){
-	if (!_queryWord.size()){
-		_conn->sendInLoop("no");
-		return;
-	}
 
 	Cache & cache = CacheManager::getCache(atoi(pthreadName));
 	string result = cache.getElement(_queryWord);
@@ -102,7 +98,7 @@ int MyTask::distance(const string & rhs){
 				ed[i][j] = ed[i - 1][j - 1];
 			else
 				// 将3种编辑结尾的方法都尝试，取最小的结果
-				ed[i][j] = min(min(ed[i][j - 1] + 1, ed[i - 1][j] + 1), ed[i - 1][j - 1] + 1);
+				ed[i][j] = min(min(ed[i][j - 1], ed[i - 1][j]), ed[i - 1][j - 1]) + 1;
 		}
 	}
 	return ed[size1][size2];
