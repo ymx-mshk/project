@@ -61,6 +61,7 @@ void DictProducer::buildDict(){
 			while (getline(input, line)){
 				if (!line.size())
 					continue;
+				//删除中文文档里的所有ascii码字符(主要是字母数字)
 				for (auto & c : line){
 					if (!(c & 0x80))
 						c = ' ';
